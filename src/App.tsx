@@ -1,3 +1,5 @@
+import { fruits } from "./mock_fruit";
+
 interface BasketOfFruitsProps {
   fruitsList: Array<{ typeName: string; items: string[] }>;
 }

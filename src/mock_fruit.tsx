@@ -1,4 +1,4 @@
-const fruits = [
+export const fruits = [
   {
     typeName: "citrus",
     items: ["oranges", "grapefruits", "mandarins", "limes"],
