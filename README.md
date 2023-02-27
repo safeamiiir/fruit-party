@@ -1,27 +1,14 @@
-# Responsive Form
+#### This is an example of [this Meduim]("https://medium.com/@safeamiiir/the-simplest-tests-to-catch-deadly-bugs-60d7937c8348") article.
 
-Welcome to the Web Frontend Interview Round!
-In this round, you will build a "Responsive Form".
-Refer to [feedback-form](./public/images/feedback-form.png) mockup file to see
-an illustration of the form.
+You can comment and uncomment line 56-67 of `app.tsx`. 
+And Line 7 and 8 of `sample.test.tsx`.
 
-# REQ-000
+If you're running it locally use this two command to install packages and run the project:
 
-Implement the form with all the fields as decribed in the mockup, and
-try to match the visual details as much as possible.
+`npm install`
+and 
+`npm start`
 
-# REQ-001
+and use command below to run test:
 
-On large screen, the form should be rendered in a 2-columns layout
-(left coloumn contains the labels, right column contains the inputs)
-
-On smaller screen, the form should be rendered vertically.
-
-# REQ-002
-
-Some fields has certain validation rules, i.e. Email and Name are required fields,
-If the validation does not pass, the form data should not be submitted.
-
-# REQ-003
-
-Check with your interviewer for additional requirements
+`npm run test`
