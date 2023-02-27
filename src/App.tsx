@@ -1,23 +1,4 @@
-const fruits = [
-  {
-    typeName: "citrus",
-    items: ["oranges", "grapefruits", "mandarins", "limes"]
-  },
-  {
-    typeName: "berries",
-    items: [
-      "strawberries",
-      "raspberries",
-      "blueberries",
-      "kiwifruit",
-      "passionfruit"
-    ]
-  },
-  {
-    typeName: "melons",
-    items: ["watermelons", "rockmelons", "honeydew melons"]
-  }
-];
+import { fruits } from "./mock_fruit";
 
 interface BasketOfFruitsProps {
   fruitsList: Array<{ typeName: string; items: string[] }>;
